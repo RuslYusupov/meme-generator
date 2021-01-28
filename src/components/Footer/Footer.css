@@ -1,0 +1,32 @@
+footer {
+    padding-top: 20px;
+}
+
+.text-in-footer {
+    color: whitesmoke;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 3.5rem
+}
+
+.text-in-footer a {
+    color: gold;
+}
+
+@media (max-width: 641px) {
+    footer {
+        padding-bottom: 128px;
+    }
+    
+    .text-in-footer {
+        font-size: 1.5rem;
+    }
+    
+}
+
+@media (max-width: 375px) {
+    footer {
+        padding-bottom: 20px;
+    }
+}
